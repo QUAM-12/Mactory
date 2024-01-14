@@ -1,0 +1,20 @@
+{
+  "parent": "fac:main",
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
+    },
+    "title": {
+      "text": "전기",
+      "color": "#FFAAFF",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "r-transport": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

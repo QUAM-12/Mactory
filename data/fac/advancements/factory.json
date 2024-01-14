@@ -1,0 +1,20 @@
+{
+  "parent": "fac:main",
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": {
+      "text": "공장",
+      "color": "#AAAAFF",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "r-transport": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
