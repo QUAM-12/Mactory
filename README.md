@@ -8,11 +8,11 @@
 
 ## 2. 타이틀
 
-"**맥토리(`Mactory`)**"
+#### "**맥토리(`Mactory`)**"
 
 ## 3. 장르
 
-<span style="color:yellow">자원 관리</span> / <span style="color:lime">기지 건설</span>
+#### <span style="color:yellow">자원 관리</span> / <span style="color:lime">기지 건설</span>
 
 ## 4. 시스템
 
