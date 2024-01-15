@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/space",
+  "display": {
+    "icon": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "text": "우주선 제어 장치",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

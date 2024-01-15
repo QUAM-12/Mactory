@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/transport/pipe",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_stained_glass_pane"
+    },
+    "title": {
+      "text": "빠른 파이프",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

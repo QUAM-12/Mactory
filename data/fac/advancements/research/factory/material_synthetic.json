@@ -1,20 +1,19 @@
 {
+  "parent": "fac:research/factory",
   "display": {
     "icon": {
-      "item": "minecraft:oak_sign"
+      "item": "minecraft:piston"
     },
     "title": {
-      "text": "MAIN",
+      "text": "자원 합성소",
       "color": "white",
       "bold": false,
       "italic": false
     },
-    "description": "",
-    "background": "minecraft:textures/block/white_concrete.png",
-    "announce_to_chat": false
+    "description": ""
   },
   "criteria": {
-    "r-main": {
+    "research": {
       "trigger": "minecraft:impossible"
     }
   }

@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/main",
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": {
+      "text": "유닛",
+      "color": "#FFAAAA",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

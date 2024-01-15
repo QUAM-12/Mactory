@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/factory",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": {
+      "text": "화로",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

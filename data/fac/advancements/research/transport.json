@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/main",
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "title": {
+      "text": "운반",
+      "color": "#FFFFAA",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

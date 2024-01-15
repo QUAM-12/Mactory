@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/space",
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_block"
+    },
+    "title": {
+      "text": "고체 추진제",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

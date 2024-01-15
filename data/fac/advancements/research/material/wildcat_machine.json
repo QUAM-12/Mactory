@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/material",
+  "display": {
+    "icon": {
+      "item": "minecraft:brewing_stand"
+    },
+    "title": {
+      "text": "시추기",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

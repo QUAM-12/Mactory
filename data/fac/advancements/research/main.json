@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sign"
+    },
+    "title": {
+      "text": "연구",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": "",
+    "background": "minecraft:textures/block/white_concrete.png",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

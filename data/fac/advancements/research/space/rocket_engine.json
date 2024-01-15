@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/space",
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": {
+      "text": "우주선 엔진",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/factory",
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": {
+      "text": "제작대",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/transport/conveyor",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_brick_slab"
+    },
+    "title": {
+      "text": "빠른 컨베이어",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

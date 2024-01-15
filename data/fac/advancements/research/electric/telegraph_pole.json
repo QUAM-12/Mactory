@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/electric",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "text": "전신주",
+      "color": "white",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

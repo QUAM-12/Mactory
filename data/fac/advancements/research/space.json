@@ -1,0 +1,20 @@
+{
+  "parent": "fac:research/main",
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk"
+    },
+    "title": {
+      "text": "우주",
+      "color": "#AAAAAA",
+      "bold": false,
+      "italic": false
+    },
+    "description": ""
+  },
+  "criteria": {
+    "research": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

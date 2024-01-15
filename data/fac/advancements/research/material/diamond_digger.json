@@ -1,19 +1,19 @@
 {
-  "parent": "fac:main",
+  "parent": "fac:research/material/digger",
   "display": {
     "icon": {
-      "item": "minecraft:smooth_stone_slab"
+      "item": "minecraft:prismarine_wall"
     },
     "title": {
-      "text": "운반",
-      "color": "#FFFFAA",
+      "text": "빠른 채굴기",
+      "color": "white",
       "bold": false,
       "italic": false
     },
     "description": ""
   },
   "criteria": {
-    "r-transport": {
+    "research": {
       "trigger": "minecraft:impossible"
     }
   }

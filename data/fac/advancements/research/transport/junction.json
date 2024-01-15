@@ -1,19 +1,19 @@
 {
-  "parent": "fac:main",
+  "parent": "fac:research/transport",
   "display": {
     "icon": {
-      "item": "minecraft:lightning_rod"
+      "item": "minecraft:purpur_slab"
     },
     "title": {
-      "text": "전기",
-      "color": "#FFAAFF",
+      "text": "교차기",
+      "color": "white",
       "bold": false,
       "italic": false
     },
     "description": ""
   },
   "criteria": {
-    "r-transport": {
+    "research": {
       "trigger": "minecraft:impossible"
     }
   }

@@ -1,19 +1,19 @@
 {
-  "parent": "fac:main",
+  "parent": "fac:research/space",
   "display": {
     "icon": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:sculk_sensor"
     },
     "title": {
-      "text": "공장",
-      "color": "#AAAAFF",
+      "text": "통신 장비",
+      "color": "white",
       "bold": false,
       "italic": false
     },
     "description": ""
   },
   "criteria": {
-    "r-transport": {
+    "research": {
       "trigger": "minecraft:impossible"
     }
   }
