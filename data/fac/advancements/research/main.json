@@ -9,7 +9,7 @@
       "bold": false,
       "italic": false
     },
-    "description": "",
+    "description": "나무 꾸미기의 시작",
     "background": "minecraft:textures/block/white_concrete.png",
     "announce_to_chat": false
   },
