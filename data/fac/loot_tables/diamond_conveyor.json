@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_brick_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "빠른 컨베이어",
+                "bold": true,
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " (Diamond Conveyor)",
+                    "color": "#AAAAFF",
+                    "bold": false
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "컨베이어보다 물건을 더욱 빠르게 앞으로 운반합니다.",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "text": " 기본",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "  크기: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "1x1",
+                      "color": "aqua"
+                    }
+                  ]
+                },
+                {
+                  "text": "  제작: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "\uf010",
+                      "color": "white"
+                    },
+                    {
+                      "text": " (x1) + "
+                    },
+                    {
+                      "text": "\uf008",
+                      "color": "white"
+                    },
+                    {
+                      "text": " (x1)"
+                    }
+                  ]
+                },
+                {
+                  "text": " 항목",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "  아이템: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "1 개",
+                      "color": "green"
+                    }
+                  ]
+                },
+                {
+                  "text": "  이동 속도: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "2 개/초",
+                      "color": "yellow"
+                    }
+                  ]
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
