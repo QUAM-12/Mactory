@@ -8,6 +8,10 @@
           "name": "minecraft:prismarine_brick_slab",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{fac:{install:1,item:\"function fac:install/diamond_conveyor/main\"}}"
+            },
+            {
               "function": "minecraft:set_name",
               "name": {
                 "text": "빠른 컨베이어",

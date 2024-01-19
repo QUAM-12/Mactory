@@ -8,6 +8,10 @@
           "name": "minecraft:smooth_stone_slab",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{fac:{install:1,item:\"function fac:install/conveyor/main\"}}"
+            },
+            {
               "function": "minecraft:set_name",
               "name": {
                 "text": "컨베이어",
