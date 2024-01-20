@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_brick_slab",
+          "name": "minecraft:rabbit_hide",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{fac:{install:1,item:\"function fac:install/diamond_conveyor/main\"}}"
+              "tag": "{CustomModelData:2,fac:{install:1,item:\"function fac:install/diamond_conveyor/main\"}}"
             },
             {
               "function": "minecraft:set_name",

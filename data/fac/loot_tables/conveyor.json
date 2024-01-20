@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:smooth_stone_slab",
+          "name": "minecraft:rabbit_hide",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{fac:{install:1,item:\"function fac:install/conveyor/main\"}}"
+              "tag": "{CustomModelData:1,fac:{install:1,item:\"function fac:install/conveyor/main\"}}"
             },
             {
               "function": "minecraft:set_name",
