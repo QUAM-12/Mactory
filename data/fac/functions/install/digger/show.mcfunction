@@ -1,0 +1,3 @@
+summon item_display ~.5 ~ ~.5 {item: {id: "minecraft:lime_stained_glass", Count: 1b}, transformation: {scale: [1.001f, .001f, 1.001f], translation: [0, 0, 0], right_rotation: [0, 0, 0, 1], left_rotation: [0, 0, 0, 1]}, Tags: [kill], brightness: {sky: 15, block: 15}, Glowing: 1b, glow_color_override: 3334423}
+summon item_display ~.5 ~2 ~.5 {item: {id: "minecraft:orange_stained_glass", Count: 1b}, transformation: {scale: [3.001f, 4.001f, 3.001f], translation: [0, 0, 0], right_rotation: [0, 0, 0, 1], left_rotation: [0, 0, 0, 1]}, Tags: [kill], brightness: {sky: 15, block: 15}}
+title @s actionbar [{"color":"#4e5c24","text":""},{"color":"green","text":"☑"}," - [",{"color":"yellow","keybind":"key.use"},"]으(로) 설치할 수 있습니다."]
