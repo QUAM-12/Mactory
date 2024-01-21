@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,fac:{install:1,item:\"function fac:install/diamond_conveyor/main\"}}"
+              "tag": "{CustomModelData:2,fac:{install:1,func:\"function fac:install/diamond_conveyor/main\"}}"
             },
             {
               "function": "minecraft:set_name",
