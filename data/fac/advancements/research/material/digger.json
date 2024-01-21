@@ -2,7 +2,7 @@
   "parent": "fac:research/material",
   "display": {
     "icon": {
-      "item": "minecraft:andesite_wall"
+      "item": "minecraft:diorite_wall"
     },
     "title": {
       "text": "채굴기",
