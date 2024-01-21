@@ -9,17 +9,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,fac:{install:1,loop:60,func:\"function fac:install/conveyor/main\"}}"
+              "tag": "{CustomModelData:3,fac:{install:1,loop:100,func:\"function fac:install/digger/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "컨베이어",
+                "text": "채굴기",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Conveyor)",
+                    "text": " (Mining Machine)",
                     "color": "#AAAAAA",
                     "bold": false
                   }
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "물건을 앞으로 운반합니다.",
+                  "text": "광물이 있는 바닥에 놓으면 채굴을 시작합니다. 컨베이어가 있어야 자원이 출력됩니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },
@@ -46,7 +46,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "1x1",
+                      "text": "3x3",
                       "color": "aqua"
                     }
                   ]
@@ -57,7 +57,14 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "\uf000",
+                      "text": "\uf010",
+                      "color": "white"
+                    },
+                    {
+                      "text": " (x1) + "
+                    },
+                    {
+                      "text": "\uf006",
                       "color": "white"
                     },
                     {
@@ -67,6 +74,27 @@
                 },
                 {
                   "text": " 항목",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "  아이템: [ \uf000 | \uf001 | \uf004 | \uf005 | \uf006 | \uf007 ]",
+                  "color": "#CCCCCC",
+                  "italic": false
+                },
+                {
+                  "text": "  저장: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "text": " 입출력",
                   "color": "white",
                   "bold": true,
                   "italic": false
@@ -83,20 +111,45 @@
                   ]
                 },
                 {
-                  "text": "  이동 속도: ",
+                  "text": "  채굴 속도: ",
                   "color": "#CCCCCC",
                   "italic": false,
                   "extra": [
                     {
-                      "text": "1 개/초",
+                      "text": "0.25 개/초",
                       "color": "yellow"
                     }
                   ]
+                },
+                {
+                  "text": " 선택",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "  가속: ",
+                  "color": "#CCCCCC",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "\uf002",
+                      "color": "white"
+                    },
+                    {
+                      "text": " (x3)",
+                      "color": "#CCCCCC"
+                    },
+                    {
+                      "text": " • 0.5 개/초",
+                      "color": "red"
+                    }
+                  ]
                 }
-              ],
-              "replace": false
+              ]
             }
-          ]
+          ],
+          "replace": false
         }
       ]
     }
