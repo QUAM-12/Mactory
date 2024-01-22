@@ -7,6 +7,7 @@
 #> particle
     particle cloud ~ ~ ~ 1 1 1 0.1 15 force
     particle ash ~ ~ ~ 1 1 1 0.01 25 force
+    particle portal ~ ~ ~ 1 1 1 0.01 25 force
 #> sounds
     playsound block.anvil.land master @p ^ ^ ^ .25 2
     playsound entity.player.hurt master @p ^ ^ ^ 1 0

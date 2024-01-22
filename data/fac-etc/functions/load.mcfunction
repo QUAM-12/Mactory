@@ -9,6 +9,10 @@
         #andesite_slab 90
         #waxed_weathered_cut_copper_slab 180
         #polished_blackstone_slab -90
+#> 기타
+    forceload add 29999983 29999983
+    setblock 29999983 0 29999983 barrel
+    advancement revoke @a everything
 #> 스코어 보드
     #ray
     scoreboard objectives add ray dummy
@@ -20,6 +24,9 @@
     scoreboard objectives add built.fill.size dummy
     scoreboard objectives add built.fill.w dummy
     scoreboard objectives add built.fill.h dummy
-advancement revoke @a everything
+    #곡괭이 쿨타임
+    scoreboard objectives add pickaxe.cool.turm dummy
+    scoreboard objectives add pickaxe.cool.s dummy
+    scoreboard objectives add pickaxe.cool.ms dummy
 #> 시작 판 블록 설치 금지
     fill -5 55 -5 5 65 5 minecraft:structure_void
