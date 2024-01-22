@@ -9,18 +9,18 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1000,fac:{demolish:1,r_click:1,loop:150,func:\"execute as @e[tag=built,limit=1,sort=nearest,distance=..10,type=interaction] run function fac:tool/demolish/main\"}}"
+              "tag": "{CustomModelData:2000,fac:{loop:60,func:\"function fac:material/stone/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "철거",
+                "text": "돌",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Demolish)",
-                    "color": "#FFAAAA",
+                    "text": " (Stone)",
+                    "color": "#AAAAAA",
                     "bold": false
                   }
                 ]
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "해당 건축물을 철거합니다.",
+                  "text": "가장 쉽게 발견할 수 있는 고체 상태의 자원입니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },
@@ -41,12 +41,12 @@
                   "italic": false
                 },
                 {
-                  "text": "  구역: ",
+                  "text": "  무게: ",
                   "color": "#CCCCCC",
                   "italic": false,
                   "extra": [
                     {
-                      "text": "wxh",
+                      "text": "1",
                       "color": "aqua"
                     }
                   ]
@@ -59,34 +59,6 @@
                     {
                       "text": "NONE",
                       "color": "white"
-                    }
-                  ]
-                },
-                {
-                  "text": " 항목",
-                  "color": "white",
-                  "bold": true,
-                  "italic": false
-                },
-                {
-                  "text": "  아이템: ",
-                  "color": "#CCCCCC",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "NONE",
-                      "color": "green"
-                    }
-                  ]
-                },
-                {
-                  "text": "  이동 속도: ",
-                  "color": "#CCCCCC",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "NONE",
-                      "color": "yellow"
                     }
                   ]
                 }

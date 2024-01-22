@@ -9,18 +9,18 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1000,fac:{demolish:1,r_click:1,loop:150,func:\"execute as @e[tag=built,limit=1,sort=nearest,distance=..10,type=interaction] run function fac:tool/demolish/main\"}}"
+              "tag": "{CustomModelData:1001,fac:{pickaxe:1,r_click:1,loop:100,func:\"function fac:tool/pickaxe/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "철거",
+                "text": "곡괭이",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Demolish)",
-                    "color": "#FFAAAA",
+                    "text": " (Pickaxe)",
+                    "color": "#AAFFAA",
                     "bold": false
                   }
                 ]
@@ -30,8 +30,13 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "해당 건축물을 철거합니다.",
+                  "text": "해당 광물을 수동으로 채굴합니다.",
                   "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "text": "곡괭이를 들고 있을 때만, 쿨타임이 줄어듭니다.",
+                  "color": "#FF6666",
                   "italic": false
                 },
                 {
@@ -46,7 +51,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "wxh",
+                      "text": "1x1",
                       "color": "aqua"
                     }
                   ]

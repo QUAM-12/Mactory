@@ -9,18 +9,18 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1000,fac:{demolish:1,r_click:1,loop:150,func:\"execute as @e[tag=built,limit=1,sort=nearest,distance=..10,type=interaction] run function fac:tool/demolish/main\"}}"
+              "tag": "{CustomModelData:3,fac:{r_click:1,loop:60,func:\"function fac:install/divide/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "철거",
+                "text": "분배기",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Demolish)",
-                    "color": "#FFAAAA",
+                    "text": " (Allotter)",
+                    "color": "#AAAAAA",
                     "bold": false
                   }
                 ]
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "해당 건축물을 철거합니다.",
+                  "text": "물건을 3 방향으로 균등하게 분배합니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },
@@ -41,12 +41,12 @@
                   "italic": false
                 },
                 {
-                  "text": "  구역: ",
+                  "text": "  크기: ",
                   "color": "#CCCCCC",
                   "italic": false,
                   "extra": [
                     {
-                      "text": "wxh",
+                      "text": "1x1",
                       "color": "aqua"
                     }
                   ]
@@ -57,8 +57,11 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "NONE",
+                      "text": "\uf000",
                       "color": "white"
+                    },
+                    {
+                      "text": " (x2)"
                     }
                   ]
                 },
@@ -74,7 +77,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "NONE",
+                      "text": "1 개",
                       "color": "green"
                     }
                   ]
@@ -85,7 +88,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "NONE",
+                      "text": "1 개/초",
                       "color": "yellow"
                     }
                   ]

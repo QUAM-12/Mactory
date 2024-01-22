@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,fac:{r_click:1,loop:100,func:\"function fac:install/digger/main\"}}"
+              "tag": "{CustomModelData:5,fac:{r_click:1,loop:100,func:\"function fac:install/digger/main\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -46,7 +46,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "3x3",
+                      "text": "3x4",
                       "color": "aqua"
                     }
                   ]
