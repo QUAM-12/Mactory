@@ -4,16 +4,16 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": ["minecraft:air"]
+          "nbt": "{fac:{demolish:1}}"
         },
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[inter.rot]}"
+          "nbt": "{Tags:[built]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "fac-etc:click/inter-rot/main"
+    "function": "fac:tool/demolish/advance_go"
   }
 }

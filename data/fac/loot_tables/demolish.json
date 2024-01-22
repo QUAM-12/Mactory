@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1000,fac:{r_click:1,loop:150,func:\"function fac:tool/demolish/main\"}}"
+              "tag": "{CustomModelData:1000,fac:{demolish:1,r_click:1,loop:150,func:\"execute as @e[tag=built,limit=1,sort=nearest,distance=..10,type=interaction] run function fac:tool/demolish/main\"}}"
             },
             {
               "function": "minecraft:set_name",
