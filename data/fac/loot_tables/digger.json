@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,fac:{install:1,loop:100,func:\"function fac:install/digger/main\"}}"
+              "tag": "{CustomModelData:3,fac:{r_click:1,loop:100,func:\"function fac:install/digger/main\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -89,7 +89,8 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": ""
+                      "text": "10 개/아이템",
+                      "color": "#88AAFF"
                     }
                   ]
                 },

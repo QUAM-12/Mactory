@@ -9,18 +9,18 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,fac:{r_click:1,loop:60,func:\"function fac:install/diamond_conveyor/main\"}}"
+              "tag": "{CustomModelData:1000,fac:{r_click:1,loop:150,func:\"function fac:tool/demolish/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "빠른 컨베이어",
+                "text": "철거",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Diamond Conveyor)",
-                    "color": "#AAAAFF",
+                    "text": " (Demolish)",
+                    "color": "#FFAAAA",
                     "bold": false
                   }
                 ]
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "컨베이어보다 물건을 더욱 빠르게 앞으로 운반합니다.",
+                  "text": "해당 건축물을 철거합니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },
@@ -46,7 +46,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "1x1",
+                      "text": "wxh",
                       "color": "aqua"
                     }
                   ]
@@ -57,18 +57,8 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "\uf010",
+                      "text": "NONE",
                       "color": "white"
-                    },
-                    {
-                      "text": " (x1) + "
-                    },
-                    {
-                      "text": "\uf008",
-                      "color": "white"
-                    },
-                    {
-                      "text": " (x1)"
                     }
                   ]
                 },
@@ -84,7 +74,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "1 개",
+                      "text": "NONE",
                       "color": "green"
                     }
                   ]
@@ -95,7 +85,7 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "2 개/초",
+                      "text": "NONE",
                       "color": "yellow"
                     }
                   ]
