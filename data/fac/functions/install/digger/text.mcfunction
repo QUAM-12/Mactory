@@ -1,5 +1,6 @@
 tag @s add digger
 tag @s add gui.text
+tag @s add built
 #
 data modify entity @s text set value '{"text":"GUI"}'
 data modify entity @s brightness set value {sky: 15, block: 15}
@@ -9,4 +10,4 @@ data modify entity @s shadow set value 1b
 #
 tp @s ^.03125 ^ ^-.501 ~180 0
 #아이템
-summon item_display ~ ~ ~ {Tags: [digger, gui.core], item: {id: "minecraft:chiseled_stone_bricks", Count: 1b}, brightness: {sky: 15, block: 15}, transformation: {scale: [1.001f, 1.001f, 1.001f], translation: [0, 0, 0], right_rotation: [0, 0, 0, 1], left_rotation: [0, 0, 0, 1]}}
+summon item_display ~ ~ ~ {Tags: [digger, gui.core, built], item: {id: "minecraft:chiseled_stone_bricks", Count: 1b}, brightness: {sky: 15, block: 15}, transformation: {scale: [1.001f, 1.001f, 1.001f], translation: [0, 0, 0], right_rotation: [0, 0, 0, 1], left_rotation: [0, 0, 0, 1]}}

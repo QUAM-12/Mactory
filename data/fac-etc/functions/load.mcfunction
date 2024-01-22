@@ -16,6 +16,10 @@
     scoreboard objectives add kill dummy
     #당낚 사용
     scoreboard objectives add use minecraft.used:minecraft.carrot_on_a_stick
+    #건축물 fill size
+    scoreboard objectives add built.fill.size dummy
+    scoreboard objectives add built.fill.w dummy
+    scoreboard objectives add built.fill.h dummy
 advancement revoke @a everything
 #> 시작 판 블록 설치 금지
     fill -5 55 -5 5 65 5 minecraft:structure_void

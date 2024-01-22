@@ -4,7 +4,7 @@
     execute if entity @s[tag=rot.180] rotated 180 0 run function fac:install/digger/build
     execute if entity @s[tag=rot.c_90] rotated -90 0 run function fac:install/digger/build
 #> entity
-    execute align xyz run summon interaction ~.5 ~ ~.5 {Tags: [digger], width: 1.001f, height: 0.001f, CustomName: '{"text":"digger"}', response: 1b}
+    execute align xyz positioned ~.5 ~ ~.5 summon interaction run function fac:install/digger/set
 #> particle
     execute align xyz run particle cloud ~.5 ~ ~.5 1 0 1 0.1 14 force @s
     execute align xyz run particle ash ~.5 ~3 ~.5 1 0 1 0.1 20 force @s

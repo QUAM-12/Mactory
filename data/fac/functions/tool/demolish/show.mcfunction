@@ -1,0 +1,2 @@
+summon text_display ~ ~.45 ~ {text: '{"color":"#FF8888","text":"> 철거"}', transformation: {scale: [1f, 1f, 1f], translation: [0f, -0.125f, 0f], right_rotation: [0, 0, 0, 1], left_rotation: [0, 0, 0, 1]}, Tags: [kill], brightness: {sky: 15, block: 15}, background: 0, shadow: 1b, billboard: "center"}
+title @p actionbar [{"color":"#4e5c24","text":""},{"color":"gold","text":"☑"}," - [",{"color":"yellow","keybind":"key.use"},"]으(로) 철거할 수 있습니다."]
