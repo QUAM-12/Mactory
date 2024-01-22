@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{fac:{install:1}}"
+        "nbt": "{fac:{r_click:1}}"
       }
     }
   }

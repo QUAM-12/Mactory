@@ -1,5 +1,3 @@
-#once
-    execute if entity @s[tag=!install.once] run function fac:install/once_if
 execute store result score #re ray run data get entity @s SelectedItem.tag.fac.loop
 scoreboard players set #if ray 0
 #
