@@ -17,3 +17,5 @@
     #당낚 사용
     scoreboard objectives add use minecraft.used:minecraft.carrot_on_a_stick
 advancement revoke @a everything
+#> 시작 판 블록 설치 금지
+    fill -5 55 -5 5 65 5 minecraft:structure_void
