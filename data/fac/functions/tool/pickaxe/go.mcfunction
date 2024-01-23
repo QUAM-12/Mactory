@@ -11,6 +11,9 @@
     loot replace block 29999983 0 29999983 container.0 mine ~ ~-.1 ~ shears{Enchantments: [{id: "minecraft:silk_touch", lvl: 255s}]}
     data modify storage fac: pickaxe.name set string block 29999983 0 29999983 Items[0].id 10
     function fac:tool/pickaxe/item with storage fac: pickaxe
+    execute if predicate fac:random/10 run function fac:tool/pickaxe/item with storage fac: pickaxe
+#> reset
+    data remove storage fac: pickaxe
 #> cool down
     tag @s add pickaxe.cool
     #score

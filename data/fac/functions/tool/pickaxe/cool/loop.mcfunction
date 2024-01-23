@@ -6,4 +6,4 @@ scoreboard players add @s pickaxe.cool.turm 1
 #s < 0
     execute if score @s pickaxe.cool.s matches ..0 if score @s pickaxe.cool.ms matches ..0 run function fac:tool/pickaxe/cool/end
 #show
-    title @s actionbar ["",{"color":"#FFFFAA","score":{"name":"@s","objective":"pickaxe.cool.s"}},".",{"color":"#FFFFAA","score":{"name":"@s","objective":"pickaxe.cool.ms"}}]
+    title @s actionbar ["Return Item: ",{"color":"#FFFFAA","score":{"name":"@s","objective":"pickaxe.cool.s"}},".",{"color":"#FFFFAA","score":{"name":"@s","objective":"pickaxe.cool.ms"}}]

@@ -1,1 +1,1 @@
-$loot give @s loot fac:$(name)
+$loot give @s loot fac:material/$(name)
