@@ -9,17 +9,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2000,fac:{loop:60,func:\"function fac:material/stone/main\"}}"
+              "tag": "{CustomModelData:2002,fac:{loop:55,func:\"function fac:material/coal/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "돌",
+                "text": "석탄",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Stone)",
+                    "text": " (Coal)",
                     "color": "#AAAAAA",
                     "bold": false
                   }
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "가장 쉽게 발견할 수 있는 고체 상태의 자원입니다.",
+                  "text": "흔한 고체 형태의 자원입니다. 주로 연료로 쓰입니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },

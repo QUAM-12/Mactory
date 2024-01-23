@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,fac:{r_click:1,loop:60,func:\"function fac:install/cross/main\"}}"
+              "tag": "{CustomModelData:4,fac:{r_click:1,loop:55,func:\"function fac:install/cross/main\"}}"
             },
             {
               "function": "minecraft:set_name",

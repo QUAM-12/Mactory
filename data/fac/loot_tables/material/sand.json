@@ -9,17 +9,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,fac:{r_click:1,loop:55,func:\"function fac:install/divide/main\"}}"
+              "tag": "{CustomModelData:2001,fac:{loop:55,func:\"function fac:material/sand/main\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "분배기",
+                "text": "모래",
                 "bold": true,
                 "italic": false,
                 "extra": [
                   {
-                    "text": " (Allotter)",
+                    "text": " (Sand)",
                     "color": "#AAAAAA",
                     "bold": false
                   }
@@ -30,7 +30,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "물건을 3 방향으로 균등하게 분배합니다.",
+                  "text": "흔한 고체 형태의 자원입니다. 유리를 제작하는 데 주로 쓰입니다.",
                   "color": "#AAAAAA",
                   "italic": false
                 },
@@ -41,12 +41,12 @@
                   "italic": false
                 },
                 {
-                  "text": "  크기: ",
+                  "text": "  무게: ",
                   "color": "#CCCCCC",
                   "italic": false,
                   "extra": [
                     {
-                      "text": "1x1",
+                      "text": "1",
                       "color": "aqua"
                     }
                   ]
@@ -57,39 +57,8 @@
                   "italic": false,
                   "extra": [
                     {
-                      "text": "\uf000",
+                      "text": "NONE",
                       "color": "white"
-                    },
-                    {
-                      "text": " (x2)"
-                    }
-                  ]
-                },
-                {
-                  "text": " 항목",
-                  "color": "white",
-                  "bold": true,
-                  "italic": false
-                },
-                {
-                  "text": "  아이템: ",
-                  "color": "#CCCCCC",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "1 개",
-                      "color": "green"
-                    }
-                  ]
-                },
-                {
-                  "text": "  이동 속도: ",
-                  "color": "#CCCCCC",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "1 개/초",
-                      "color": "yellow"
                     }
                   ]
                 }
