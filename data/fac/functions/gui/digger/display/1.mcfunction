@@ -1,0 +1,5 @@
+#> 디스플레이 처음 화면
+item replace block ~ ~ ~ container.10 with blaze_rod{gui: {id: 1, display: 1, digger: 1}, display: {Lore: ['{"italic":false,"color":"gray","text":" 연료를 주입하는 것에 대한 인터페이스입니다."}', '{"italic":false,"color":"gray","text":" 클릭하면 이동합니다."}'], Name: '{"italic":false,"bold":true,"color":"#FF9999","text":"입력"}'}, HideFlags: 255}
+item replace block ~ ~ ~ container.13 with paper{gui: {id: 2, display: 1, digger: 1}, display: {Lore: ['{"italic":false,"color":"gray","text":" 현재 채굴기의 상태를 확인하는 인터페이스입니다."}', '{"italic":false,"color":"gray","text":" 클릭하면 이동합니다."}'], Name: '{"italic":false,"bold":true,"color":"#FFFF99","text":"모니터링"}'}, HideFlags: 255}
+item replace block ~ ~ ~ container.16 with feather{gui: {id: 3, display: 1, digger: 1}, display: {Lore: ['{"italic":false,"color":"gray","text":" 기타 옵션에 관한 인터페이스입니다."}', '{"italic":false,"color":"gray","text":" 클릭하면 이동합니다."}'], Name: '{"italic":false,"bold":true,"color":"#99FFFF","text":"기타"}'}, HideFlags: 255}
+scoreboard players set #display open.gui 1

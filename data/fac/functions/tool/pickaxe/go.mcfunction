@@ -3,8 +3,8 @@
     execute align xyz run particle white_ash ~.5 ~-.5 ~.5 .5 .5 .5 0.01 10 force @s
     execute align xyz run particle ambient_entity_effect ~.5 ~-.5 ~.5 .25 .25 .25 0 10 force @s
 #> sounds
-    playsound entity.experience_orb.pickup master @s ^ ^ ^ .125
-    playsound entity.player.hurt master @s ^ ^ ^ 1 0
+    playsound entity.item.pickup master @s ^ ^ ^ 1
+    playsound entity.player.hurt master @s ^ ^ ^ .5 0
     playsound block.shulker_box.open master @s ^ ^ ^ .25 0
 #> item
     item replace block 29999983 0 29999983 container.0 with air

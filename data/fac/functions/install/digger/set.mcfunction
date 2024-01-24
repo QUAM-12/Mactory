@@ -1,5 +1,6 @@
 tag @s add digger
 tag @s add built
+tag @s add gui
 #
 data modify entity @s width set value 1.001f
 data modify entity @s height set value 0.001f

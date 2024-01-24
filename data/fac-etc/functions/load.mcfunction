@@ -8,6 +8,10 @@
     scoreboard objectives add ray dummy "레이 캐스팅"
     #kill
     scoreboard objectives add kill dummy "소환 이후 즉시 죽어야하는 엔티티"
+    #open barrel
+    scoreboard objectives add open.gui minecraft.custom:minecraft.open_barrel
+    scoreboard players set #setting open.gui 0
+    scoreboard players set #once open.gui 0
     #당낚 사용
     scoreboard objectives add use minecraft.used:minecraft.carrot_on_a_stick "당낚 사용"
     #건축물 fill size
