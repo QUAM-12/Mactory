@@ -4,12 +4,18 @@
     advancement revoke @a everything
     recipe take @a *
 #> 스코어 보드
+    #> 채굴기
+        #연료량
+            scoreboard objectives add digger.fuel dummy "채굴기 연료량"
+    #기타
+    scoreboard objectives add etc dummy "기타 저장"
+        scoreboard players set #100 etc 100
     #ray
     scoreboard objectives add ray dummy "레이 캐스팅"
     #kill
     scoreboard objectives add kill dummy "소환 이후 즉시 죽어야하는 엔티티"
     #open barrel
-    scoreboard objectives add open.gui minecraft.custom:minecraft.open_barrel
+    scoreboard objectives add open.gui minecraft.custom:minecraft.open_barrel "GUI(통)을 염"
     scoreboard players set #setting open.gui 0
     scoreboard players set #once open.gui 0
     #당낚 사용

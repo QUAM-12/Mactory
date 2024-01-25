@@ -3,4 +3,4 @@
     function fac:gui/ray/macro with storage fac: built.gui
     data remove storage fac: built.gui.name
 #> 통을 닫음
-    execute if block ~ ~ ~ barrel[open=false] run function fac:gui/close/go
+    execute if block ~ ~ ~ barrel[open=false] run function fac:gui/close
