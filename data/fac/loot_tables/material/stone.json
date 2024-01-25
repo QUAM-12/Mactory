@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2000,fac:{loop:55,func:\"function fac:material/stone/main\"}}"
+              "tag": "{CustomModelData:2000,fac:{stone:1,loop:55,func:\"function fac:material/stone/main\"}}"
             },
             {
               "function": "minecraft:set_name",
