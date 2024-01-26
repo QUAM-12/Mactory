@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ Items[{Slot:13b}].tag.display.Lore set value ['{"italic":false,"color":"gray","text":"현재 채굴기의 전력을 모니터링합니다."}','[{"italic":false,"color":"gray","text":"입력: "},{"color":"yellow","text":"$(value)"}," kW"]']

@@ -1,0 +1,12 @@
+#> 화면
+data remove block ~ ~ ~ Items
+execute if score @e[tag=digger,limit=1,sort=nearest,type=interaction] digger.switch matches -1 run item replace block ~ ~ ~ container.11 with lime_concrete{gui: {id: 1, display: 4, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":"현재 채굴기의 작동 여부를 조작합니다."}]', '{"italic":false,"color":"gray","text":"클릭하면 켜집니다."}'], Name: '{"italic":false,"bold":true,"color":"#99FF99","text":"스위치"}'}, HideFlags: 255}
+execute if score @e[tag=digger,limit=1,sort=nearest,type=interaction] digger.switch matches 1 run item replace block ~ ~ ~ container.11 with red_concrete{gui: {id: 1, display: 4, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":"현재 채굴기의 작동 여부를 조작합니다."}]', '{"italic":false,"color":"gray","text":"클릭하면 꺼집니다."}'], Name: '{"italic":false,"bold":true,"color":"#FF9999","text":"스위치"}'}, HideFlags: 255}
+execute if score @e[tag=digger,limit=1,sort=nearest,type=interaction] digger.mode matches -1 run item replace block ~ ~ ~ container.15 with echo_shard{gui: {id: 2, display: 4, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":"연료 및 전력 사용 여부."}]', '[{"italic":false,"color":"gray","text":"클릭하면 "},{"color":"yellow","text":"(전력)"}," 모드로 바뀝니다."]'], Name: '{"italic":false,"bold":true,"color":"#9999FF","text":"모드"}'}, HideFlags: 255}
+execute if score @e[tag=digger,limit=1,sort=nearest,type=interaction] digger.mode matches 1 run item replace block ~ ~ ~ container.15 with disc_fragment_5{gui: {id: 2, display: 4, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":"연료 및 전력 사용 여부."}]', '[{"italic":false,"color":"gray","text":"클릭하면 "},{"color":"gold","text":"(연료)"}," 모드로 바뀝니다."]'], Name: '{"italic":false,"bold":true,"color":"#9999FF","text":"모드"}'}, HideFlags: 255}
+#
+item replace block ~ ~ ~ container.22 with barrier{gui: {id: 3, display: 4, digger: 1, back: 1}, display: {Lore: ['{"italic":false,"color":"gray","text":"이전 화면으로 돌아갑니다."}', '{"italic":false,"color":"gray","text":"클릭하면 이동합니다."}'], Name: '{"italic":false,"bold":true,"color":"#FF0000","text":"돌아가기"}'}, HideFlags: 255}
+scoreboard players set #display open.gui 4
+#> reset and sounds
+    clear @s feather{gui: {digger: 1}}
+    playsound entity.player.hurt player @s ^ ^ ^ .5 2

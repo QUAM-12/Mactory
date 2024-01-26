@@ -7,9 +7,23 @@
     #> 채굴기
         #연료량
             scoreboard objectives add digger.fuel dummy "채굴기 연료량"
+        #스위치
+            scoreboard objectives add digger.switch dummy "채굴기 스위치"
+        #모드
+            scoreboard objectives add digger.mode dummy "채굴기 모드"
+        #전력
+            scoreboard objectives add digger.electric dummy "채굴기 전력량"
+        #자원 저장
+            scoreboard objectives add digger.material.store.stone dummy "채굴기 돌 저장"
+            scoreboard objectives add digger.material.store.sand dummy "채굴기 모래 저장"
+            scoreboard objectives add digger.material.store.coal_ore dummy "채굴기 석탄 저장"
+            scoreboard objectives add digger.material.store.copper_ore dummy "채굴기 구리 저장"
+            scoreboard objectives add digger.material.store.iron_ore dummy "채굴기 철 저장"
+            scoreboard objectives add digger.material.store.gold_ore dummy "채굴기 금 저장"
     #기타
     scoreboard objectives add etc dummy "기타 저장"
         scoreboard players set #100 etc 100
+        scoreboard players set #-1 etc -1
     #ray
     scoreboard objectives add ray dummy "레이 캐스팅"
     #kill

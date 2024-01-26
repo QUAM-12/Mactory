@@ -1,5 +1,5 @@
 data remove block ~ ~ ~ Items[{tag: {gui: {id: 3}}}]
-item replace block ~ ~ ~ container.14 with light_gray_wool{gui: {id: 3, display: 2, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":" 석탄을"},{"color":"yellow","text":" +5 "},{"text":"개씩 채굴기에 넣습니다."}]'], Name: '{"italic":false,"bold":true,"color":"#99FFFF","text":"기타"}'}, HideFlags: 255} 5
+item replace block ~ ~ ~ container.14 with light_gray_wool{gui: {id: 3, display: 2, digger: 1}, display: {Lore: ['[{"italic":false,"color":"gray","text":"석탄을"},{"color":"yellow","text":" +5 "},{"text":"개씩 채굴기에 넣습니다."}]'], Name: '{"italic":false,"bold":true,"color":"#99FFFF","text":"기타"}'}, HideFlags: 255} 5
 clear @s light_gray_wool{gui: {digger: 1}}
 #연료 주기
     execute if score #coal_count digger.fuel matches ..4 run return 0
