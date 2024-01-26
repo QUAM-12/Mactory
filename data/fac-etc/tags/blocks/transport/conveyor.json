@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_brick_slab",
+    "minecraft:red_nether_brick_slab",
+    "minecraft:mossy_cobblestone_slab",
+    "minecraft:mossy_stone_brick_slab"
+  ]
+}

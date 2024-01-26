@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dark_prismarine_slab",
+    "minecraft:waxed_exposed_cut_copper_slab",
+    "minecraft:crimson_slab",
+    "minecraft:warped_slab"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:waxed_oxidized_cut_copper_slab",
+    "minecraft:andesite_slab",
+    "minecraft:waxed_weathered_cut_copper_slab",
+    "minecraft:polished_blackstone_slab"
+  ]
+}
