@@ -15,7 +15,7 @@
 #> entity
     kill
 #> item return
-    data modify storage fac: built.item.name set string entity @s[type=minecraft:interaction] CustomName 9 -2
+    data modify storage fac: built.item.name set string entity @s[type=minecraft:interaction] CustomName 1 -1
     function fac:tool/demolish/item/return with storage fac: built.item
 #> reset
     data remove storage fac: built
