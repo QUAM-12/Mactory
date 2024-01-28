@@ -43,4 +43,4 @@
     scoreboard objectives add pickaxe.cool.s dummy "곡괭이 초"
     scoreboard objectives add pickaxe.cool.ms dummy "곡괭이 밀리 초"
 #> 시작 판 블록 설치 금지
-    fill -5 55 -5 5 65 5 minecraft:structure_void
+    fill -5 55 -5 5 65 5 light
