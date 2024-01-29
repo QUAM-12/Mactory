@@ -14,6 +14,7 @@ scoreboard players set @s built.fill.size 2
 #
 scoreboard players set @s digger.switch -1
 scoreboard players set @s digger.mode -1
+scoreboard players set @s digger.fuel 0
 scoreboard players set @s digger.electric 0
 scoreboard players set @s digger.material.store.stone 0
 scoreboard players set @s digger.material.store.sand 0
